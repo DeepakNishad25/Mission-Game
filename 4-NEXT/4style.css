@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffc2d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none; /* Link underline hatane ke liye */
+}
+
+.container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    background-color: #fadde1;
+    height: 450px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#text{
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 80px;
+}
+#btn{
+    background-color: #d81159;
+    border: 2px solid black;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    height: 35px;
+    line-height: 35px;
+    width: 70px;
+    text-align: center;
+    margin-top: 39px;
+}
+
+#foot {
+    background-color: black;
+    color: white;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+
+
+}
+
+#wa{
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 45px;
+    margin-top: 75px;
+}
+#btn:hover{
+    background-color: #ffc2d1;
+    color: black;
+}
